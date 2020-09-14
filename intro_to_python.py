@@ -52,6 +52,7 @@ for color in visible_colors:
   print(color)
 
 # loop through string
+
 my_string = "Hello, world!"
 
 for character in my_string:
@@ -61,3 +62,16 @@ for character in my_string:
 for i in range(10):
     print(i)
 # this will print out 1-9
+
+# Add one to a list of numbers
+
+numz = [3, 8, 10, 4, 0.4, 1.5]
+
+for num in numz:
+    num += 1
+print(numz)
+# => [3, 8, 10, 4, 0.4, 1.5]
+
+for i in range(len(numz)):
+    numz[i] += 1 
+# => [4, 9, 11, 5, 1.4, 2.5]
